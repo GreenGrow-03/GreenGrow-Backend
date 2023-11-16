@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @CrossOrigin
 @RestController
-@RequestMapping("api/plots")
+@RequestMapping("/api/plots")
 @Api(tags = "Plots", value = "Web Service RESTful - Plots")
 public class PlotsController {
     private PlotService plotService;
